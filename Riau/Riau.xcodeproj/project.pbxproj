@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2546ECBDDBD2265054A3F56 /* Pods_Riau.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB61B6524EBA8098231FFEDD /* Pods_Riau.framework */; };
+		D697BC6E1FC8F8FC002021B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697BC6D1FC8F8FC002021B0 /* AppDelegate.swift */; };
+		D697BC701FC8F8FC002021B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697BC6F1FC8F8FC002021B0 /* ViewController.swift */; };
+		D697BC731FC8F8FC002021B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D697BC711FC8F8FC002021B0 /* Main.storyboard */; };
+		D697BC751FC8F8FC002021B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D697BC741FC8F8FC002021B0 /* Assets.xcassets */; };
+		D697BC781FC8F8FC002021B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D697BC761FC8F8FC002021B0 /* LaunchScreen.storyboard */; };
+		D697BC831FC8F8FC002021B0 /* RiauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697BC821FC8F8FC002021B0 /* RiauTests.swift */; };
+		D697BC8E1FC8F8FC002021B0 /* RiauUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697BC8D1FC8F8FC002021B0 /* RiauUITests.swift */; };
+		D697BC9C1FC8F9D0002021B0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697BC9B1FC8F9D0002021B0 /* DetailViewController.swift */; };
+		D697BC9E1FC8F9E5002021B0 /* ResepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697BC9D1FC8F9E5002021B0 /* ResepTableViewController.swift */; };
+		D697BCA01FC8FA12002021B0 /* ResepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697BC9F1FC8FA12002021B0 /* ResepTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D697BC7F1FC8F8FC002021B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D697BC621FC8F8FC002021B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D697BC691FC8F8FC002021B0;
+			remoteInfo = Riau;
+		};
+		D697BC8A1FC8F8FC002021B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D697BC621FC8F8FC002021B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D697BC691FC8F8FC002021B0;
+			remoteInfo = Riau;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20DB22C8CF6C2C5878C3CDB0 /* Pods-Riau.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riau.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Riau/Pods-Riau.debug.xcconfig"; sourceTree = "<group>"; };
+		72B9B45C64D9B502F4B88785 /* Pods-Riau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riau.release.xcconfig"; path = "Pods/Target Support Files/Pods-Riau/Pods-Riau.release.xcconfig"; sourceTree = "<group>"; };
+		D697BC6A1FC8F8FC002021B0 /* Riau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D697BC6D1FC8F8FC002021B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D697BC6F1FC8F8FC002021B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D697BC721FC8F8FC002021B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D697BC741FC8F8FC002021B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D697BC771FC8F8FC002021B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D697BC791FC8F8FC002021B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D697BC7E1FC8F8FC002021B0 /* RiauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiauTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D697BC821FC8F8FC002021B0 /* RiauTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiauTests.swift; sourceTree = "<group>"; };
+		D697BC841FC8F8FC002021B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D697BC891FC8F8FC002021B0 /* RiauUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiauUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D697BC8D1FC8F8FC002021B0 /* RiauUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiauUITests.swift; sourceTree = "<group>"; };
+		D697BC8F1FC8F8FC002021B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D697BC9B1FC8F9D0002021B0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D697BC9D1FC8F9E5002021B0 /* ResepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewController.swift; sourceTree = "<group>"; };
+		D697BC9F1FC8FA12002021B0 /* ResepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewCell.swift; sourceTree = "<group>"; };
+		DB61B6524EBA8098231FFEDD /* Pods_Riau.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Riau.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D697BC671FC8F8FC002021B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2546ECBDDBD2265054A3F56 /* Pods_Riau.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697BC7B1FC8F8FC002021B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697BC861FC8F8FC002021B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380AFAE07ED8FA4AFA2C3B12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20DB22C8CF6C2C5878C3CDB0 /* Pods-Riau.debug.xcconfig */,
+				72B9B45C64D9B502F4B88785 /* Pods-Riau.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5563D65951CB7850BB64B493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB61B6524EBA8098231FFEDD /* Pods_Riau.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D697BC611FC8F8FC002021B0 = {
+			isa = PBXGroup;
+			children = (
+				D697BC6C1FC8F8FC002021B0 /* Riau */,
+				D697BC811FC8F8FC002021B0 /* RiauTests */,
+				D697BC8C1FC8F8FC002021B0 /* RiauUITests */,
+				D697BC6B1FC8F8FC002021B0 /* Products */,
+				380AFAE07ED8FA4AFA2C3B12 /* Pods */,
+				5563D65951CB7850BB64B493 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D697BC6B1FC8F8FC002021B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D697BC6A1FC8F8FC002021B0 /* Riau.app */,
+				D697BC7E1FC8F8FC002021B0 /* RiauTests.xctest */,
+				D697BC891FC8F8FC002021B0 /* RiauUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D697BC6C1FC8F8FC002021B0 /* Riau */ = {
+			isa = PBXGroup;
+			children = (
+				D697BC6D1FC8F8FC002021B0 /* AppDelegate.swift */,
+				D697BC6F1FC8F8FC002021B0 /* ViewController.swift */,
+				D697BC711FC8F8FC002021B0 /* Main.storyboard */,
+				D697BC741FC8F8FC002021B0 /* Assets.xcassets */,
+				D697BC761FC8F8FC002021B0 /* LaunchScreen.storyboard */,
+				D697BC791FC8F8FC002021B0 /* Info.plist */,
+				D697BC9B1FC8F9D0002021B0 /* DetailViewController.swift */,
+				D697BC9D1FC8F9E5002021B0 /* ResepTableViewController.swift */,
+				D697BC9F1FC8FA12002021B0 /* ResepTableViewCell.swift */,
+			);
+			path = Riau;
+			sourceTree = "<group>";
+		};
+		D697BC811FC8F8FC002021B0 /* RiauTests */ = {
+			isa = PBXGroup;
+			children = (
+				D697BC821FC8F8FC002021B0 /* RiauTests.swift */,
+				D697BC841FC8F8FC002021B0 /* Info.plist */,
+			);
+			path = RiauTests;
+			sourceTree = "<group>";
+		};
+		D697BC8C1FC8F8FC002021B0 /* RiauUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D697BC8D1FC8F8FC002021B0 /* RiauUITests.swift */,
+				D697BC8F1FC8F8FC002021B0 /* Info.plist */,
+			);
+			path = RiauUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D697BC691FC8F8FC002021B0 /* Riau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D697BC921FC8F8FC002021B0 /* Build configuration list for PBXNativeTarget "Riau" */;
+			buildPhases = (
+				3CAEA180AB181EDABD8007F3 /* [CP] Check Pods Manifest.lock */,
+				D697BC661FC8F8FC002021B0 /* Sources */,
+				D697BC671FC8F8FC002021B0 /* Frameworks */,
+				D697BC681FC8F8FC002021B0 /* Resources */,
+				71E43D79330CAEE01566D38B /* [CP] Embed Pods Frameworks */,
+				2C222ADBA72FD34D393ED95E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Riau;
+			productName = Riau;
+			productReference = D697BC6A1FC8F8FC002021B0 /* Riau.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D697BC7D1FC8F8FC002021B0 /* RiauTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D697BC951FC8F8FC002021B0 /* Build configuration list for PBXNativeTarget "RiauTests" */;
+			buildPhases = (
+				D697BC7A1FC8F8FC002021B0 /* Sources */,
+				D697BC7B1FC8F8FC002021B0 /* Frameworks */,
+				D697BC7C1FC8F8FC002021B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D697BC801FC8F8FC002021B0 /* PBXTargetDependency */,
+			);
+			name = RiauTests;
+			productName = RiauTests;
+			productReference = D697BC7E1FC8F8FC002021B0 /* RiauTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D697BC881FC8F8FC002021B0 /* RiauUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D697BC981FC8F8FC002021B0 /* Build configuration list for PBXNativeTarget "RiauUITests" */;
+			buildPhases = (
+				D697BC851FC8F8FC002021B0 /* Sources */,
+				D697BC861FC8F8FC002021B0 /* Frameworks */,
+				D697BC871FC8F8FC002021B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D697BC8B1FC8F8FC002021B0 /* PBXTargetDependency */,
+			);
+			name = RiauUITests;
+			productName = RiauUITests;
+			productReference = D697BC891FC8F8FC002021B0 /* RiauUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D697BC621FC8F8FC002021B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D697BC691FC8F8FC002021B0 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D697BC7D1FC8F8FC002021B0 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D697BC691FC8F8FC002021B0;
+					};
+					D697BC881FC8F8FC002021B0 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D697BC691FC8F8FC002021B0;
+					};
+				};
+			};
+			buildConfigurationList = D697BC651FC8F8FC002021B0 /* Build configuration list for PBXProject "Riau" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D697BC611FC8F8FC002021B0;
+			productRefGroup = D697BC6B1FC8F8FC002021B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D697BC691FC8F8FC002021B0 /* Riau */,
+				D697BC7D1FC8F8FC002021B0 /* RiauTests */,
+				D697BC881FC8F8FC002021B0 /* RiauUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D697BC681FC8F8FC002021B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D697BC781FC8F8FC002021B0 /* LaunchScreen.storyboard in Resources */,
+				D697BC751FC8F8FC002021B0 /* Assets.xcassets in Resources */,
+				D697BC731FC8F8FC002021B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697BC7C1FC8F8FC002021B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697BC871FC8F8FC002021B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C222ADBA72FD34D393ED95E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riau/Pods-Riau-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CAEA180AB181EDABD8007F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Riau-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71E43D79330CAEE01566D38B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Riau/Pods-Riau-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riau/Pods-Riau-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D697BC661FC8F8FC002021B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D697BC9C1FC8F9D0002021B0 /* DetailViewController.swift in Sources */,
+				D697BCA01FC8FA12002021B0 /* ResepTableViewCell.swift in Sources */,
+				D697BC701FC8F8FC002021B0 /* ViewController.swift in Sources */,
+				D697BC6E1FC8F8FC002021B0 /* AppDelegate.swift in Sources */,
+				D697BC9E1FC8F9E5002021B0 /* ResepTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697BC7A1FC8F8FC002021B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D697BC831FC8F8FC002021B0 /* RiauTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697BC851FC8F8FC002021B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D697BC8E1FC8F8FC002021B0 /* RiauUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D697BC801FC8F8FC002021B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D697BC691FC8F8FC002021B0 /* Riau */;
+			targetProxy = D697BC7F1FC8F8FC002021B0 /* PBXContainerItemProxy */;
+		};
+		D697BC8B1FC8F8FC002021B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D697BC691FC8F8FC002021B0 /* Riau */;
+			targetProxy = D697BC8A1FC8F8FC002021B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D697BC711FC8F8FC002021B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D697BC721FC8F8FC002021B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D697BC761FC8F8FC002021B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D697BC771FC8F8FC002021B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D697BC901FC8F8FC002021B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D697BC911FC8F8FC002021B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D697BC931FC8F8FC002021B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DB22C8CF6C2C5878C3CDB0 /* Pods-Riau.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Riau/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Riau;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D697BC941FC8F8FC002021B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B9B45C64D9B502F4B88785 /* Pods-Riau.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Riau/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Riau;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D697BC961FC8F8FC002021B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiauTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.RiauTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riau.app/Riau";
+			};
+			name = Debug;
+		};
+		D697BC971FC8F8FC002021B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiauTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.RiauTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riau.app/Riau";
+			};
+			name = Release;
+		};
+		D697BC991FC8F8FC002021B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiauUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.RiauUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Riau;
+			};
+			name = Debug;
+		};
+		D697BC9A1FC8F8FC002021B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiauUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.RiauUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Riau;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D697BC651FC8F8FC002021B0 /* Build configuration list for PBXProject "Riau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D697BC901FC8F8FC002021B0 /* Debug */,
+				D697BC911FC8F8FC002021B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D697BC921FC8F8FC002021B0 /* Build configuration list for PBXNativeTarget "Riau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D697BC931FC8F8FC002021B0 /* Debug */,
+				D697BC941FC8F8FC002021B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D697BC951FC8F8FC002021B0 /* Build configuration list for PBXNativeTarget "RiauTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D697BC961FC8F8FC002021B0 /* Debug */,
+				D697BC971FC8F8FC002021B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D697BC981FC8F8FC002021B0 /* Build configuration list for PBXNativeTarget "RiauUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D697BC991FC8F8FC002021B0 /* Debug */,
+				D697BC9A1FC8F8FC002021B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D697BC621FC8F8FC002021B0 /* Project object */;
+}
