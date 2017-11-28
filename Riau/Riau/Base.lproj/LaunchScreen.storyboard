@@ -31,14 +31,14 @@
                                     <constraint firstAttribute="width" secondItem="LFi-Ey-JKB" secondAttribute="height" multiplier="75:44" id="mah-mX-1AO"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="qHD-Dh-AHq">
-                                <rect key="frame" x="127" y="494" width="121" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="qHD-Dh-AHq">
+                                <rect key="frame" x="127" y="474" width="121" height="96"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="bWR-RC-oYG"/>
+                                    <constraint firstAttribute="height" constant="96" id="BFn-oS-z2w"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resep Masakan Khas Riau" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o89-B3-laB">
-                                <rect key="frame" x="50.5" y="317" width="275" height="25"/>
+                                <rect key="frame" x="50" y="317" width="275" height="25"/>
                                 <fontDescription key="fontDescription" name="Baskerville-BoldItalic" family="Baskerville" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -48,30 +48,30 @@
                         <constraints>
                             <constraint firstItem="LFi-Ey-JKB" firstAttribute="width" secondItem="LFi-Ey-JKB" secondAttribute="height" multiplier="75:44" id="BiC-cJ-5Kg"/>
                             <constraint firstItem="LFi-Ey-JKB" firstAttribute="width" secondItem="LFi-Ey-JKB" secondAttribute="height" multiplier="75:44" id="FJk-CQ-agK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qHD-Dh-AHq" secondAttribute="bottom" constant="97" id="JeZ-YP-DTp"/>
                             <constraint firstItem="LFi-Ey-JKB" firstAttribute="width" secondItem="LFi-Ey-JKB" secondAttribute="height" multiplier="75:44" id="MW4-k4-aWS"/>
                             <constraint firstItem="LFi-Ey-JKB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="N5n-Ev-nSa"/>
-                            <constraint firstItem="qHD-Dh-AHq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PzX-hY-i5t"/>
+                            <constraint firstItem="qHD-Dh-AHq" firstAttribute="centerX" secondItem="LFi-Ey-JKB" secondAttribute="centerX" id="Oyb-X1-T5p"/>
                             <constraint firstItem="LFi-Ey-JKB" firstAttribute="width" secondItem="LFi-Ey-JKB" secondAttribute="height" multiplier="75:44" id="QsA-04-rcz"/>
                             <constraint firstItem="o89-B3-laB" firstAttribute="centerX" secondItem="LFi-Ey-JKB" secondAttribute="centerX" id="RXr-M2-Ol6"/>
-                            <constraint firstItem="qHD-Dh-AHq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="SJ8-ym-b1e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qHD-Dh-AHq" secondAttribute="bottom" constant="97" id="UWR-lr-fGs"/>
+                            <constraint firstItem="qHD-Dh-AHq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="aCt-US-kVa"/>
                             <constraint firstItem="LFi-Ey-JKB" firstAttribute="width" secondItem="LFi-Ey-JKB" secondAttribute="height" multiplier="75:44" id="f4H-FM-See"/>
-                            <constraint firstItem="o89-B3-laB" firstAttribute="centerX" secondItem="qHD-Dh-AHq" secondAttribute="centerX" id="hMA-20-c22"/>
                             <constraint firstItem="o89-B3-laB" firstAttribute="top" secondItem="LFi-Ey-JKB" secondAttribute="bottom" constant="1" id="nH4-D7-plX"/>
                             <constraint firstItem="LFi-Ey-JKB" firstAttribute="width" secondItem="LFi-Ey-JKB" secondAttribute="height" multiplier="75:44" id="w7L-yp-rL0"/>
                             <constraint firstItem="LFi-Ey-JKB" firstAttribute="width" secondItem="LFi-Ey-JKB" secondAttribute="height" multiplier="75:44" id="yJV-ba-5wS"/>
                             <constraint firstItem="LFi-Ey-JKB" firstAttribute="width" secondItem="LFi-Ey-JKB" secondAttribute="height" multiplier="75:44" id="yYp-zF-mc4"/>
+                            <constraint firstItem="qHD-Dh-AHq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zhw-F0-NtE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="225" height="225"/>
         <image name="images" width="341" height="148"/>
-        <image name="images-1" width="225" height="225"/>
     </resources>
 </document>
